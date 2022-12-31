@@ -1,4 +1,4 @@
-![HealthBrain Logo](https://github.com/Rohin2022/HealthTogether/blob/main/Logo.png)
+<img src="https://github.com/Rohin2022/HealthTogether/blob/main/Logo.png" alt="HealthBrain Logo" width="200"/>
 
 # HealthTogether
 An efficient online platform that connects doctors and patients
