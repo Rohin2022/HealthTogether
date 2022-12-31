@@ -45,6 +45,7 @@ An efficient online platform that connects doctors and patients
  
 ## Accomplishments
  - I'm proud of the UI and how it ensures an efficient user experience
+
 ## What I learned
  - I learned more about designing and creating minimalist UIs
  - Additionally, I learned more about firebase and its various real-time capabilities
