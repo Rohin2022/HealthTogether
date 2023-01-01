@@ -16,13 +16,16 @@ An efficient online platform that connects doctors and patients
  - Proprietary recommendation engine **matches patients with doctors** based upon an advanced set of features
  - ML algorithm that interacts with patients during off hours, **allowing patients to receive feedback and assistance** when no doctors are present
  - A second recommendation algorithm identifies other patients who have had **similar ailments and allows them to chat** with one another, **providing assistance and comfort** from someone who has had a similar condition and allowing for a **more intimate and personal connection than with a doctor**
+ - Database of **prescription drugs that have successfully combated certain ailments** are recommended to the doctor, helping to **increase their efficiency**
  - A toxicity algorithm **vetts unproductive and rude conversations** between patients, ensuring a **kind and comforting online space**
 
 ## Development process
 1. Utilized ReactJS for the UI interface, and python for the various machine learning components
 2. Integrated Firebase Realtime database with the UI
-3. Trained a custom toxicity classification model using (Cohere)[https://cohere.ai/]
-4. Integrated the machine learning components into the project 
+3. Trained a custom toxicity classification model using [Cohere](https://cohere.ai/)
+4. Drug recommendation algorithm created - [Colab Notebook](https://colab.research.google.com/drive/1UcfWa2o4OalsXuENEBfH7py548_xlFBu?usp=sharing)
+5. Flask API created to host ML algorithms
+6. Integrated the APIs into the project 
 
 ## User Experience
  - By matching users with others with similar conditions, users can **empathize with one another**, fostering a **comforting online environment**
@@ -36,7 +39,7 @@ An efficient online platform that connects doctors and patients
  ## Future Improvements
   - Adding **additional security measures**
   - Improving the **accuracy of the toxicity classifier**
-  - **Further streamlining** the user experience (from both the patient and physician sides)
+  - **Further streamlining** the user experience (from both the patient and physician perspectives)
   - Creating an app to provide users with a **more native experience** on mobile devices
   
 ## Challenges during development
@@ -49,3 +52,7 @@ An efficient online platform that connects doctors and patients
 ## What I learned
  - I learned more about designing and creating minimalist UIs
  - Additionally, I learned more about firebase and its various real-time capabilities
+
+### Sources
+#### Drug Review Dataset
+Felix Gräßer, Surya Kallumadi, Hagen Malberg, and Sebastian Zaunseder. 2018. Aspect-Based Sentiment Analysis of Drug Reviews Applying Cross-Domain and Cross-Data Learning. In Proceedings of the 2018 International Conference on Digital Health (DH '18). ACM, New York, NY, USA, 121-125. DOI: [Web Link]
